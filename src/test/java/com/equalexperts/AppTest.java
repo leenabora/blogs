@@ -38,7 +38,7 @@ public class AppTest
             driver = new FirefoxDriver();
             driver.get("http://localhost:4000/");
 
-            assertEquals(driver.findElement(By.className("author-name")).getText(), "Louis Abel");
+            assertEquals(driver.findElement(By.className("author-name")).getText(), "Leena And Sheetal");
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
